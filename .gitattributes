@@ -1,0 +1,14 @@
+# Normalize line endings to LF for anything git detects as text, regardless of what
+# platform (Windows CI, Windows/Linux/macOS dev machines) wrote or checked it out.
+* text=auto eol=lf
+
+# Known binary types - excluded from the text/eol normalization above so they're never
+# treated as text by mistake.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.dll binary
+*.pdb binary
+*.zip binary
+*.xcf binary

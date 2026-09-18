@@ -1,0 +1,6 @@
+[
+	{
+		"repo": "https://raw.githubusercontent.com/sunnie-sunday/AcousticKitty/main/repo.json",
+		"plugins": ["AcousticKitty"]
+	}
+]
